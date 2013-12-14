@@ -27,6 +27,7 @@ public class Proto1 implements EntryPoint {
 	public void onModuleLoad() {
 		final Button sendButton = new Button( "Send" );
 		final TextBox nameField = new TextBox();
+		//----------- comment
 		nameField.setText( "テスト" );
 		final Label errorLabel = new Label();
 
